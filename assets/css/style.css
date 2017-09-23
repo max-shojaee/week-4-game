@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    background: url('../images/background_img.jpg');
+    font-size: 18px;
+    font-family: serif,'Arial', 'Helvetica Neue', Helvetica;
+}
+
+.container{
+    margin-left: 10px;
+    padding: 0;
+}
+
+#header{
+    width:300px;
+    height: auto;
+    background-color: #D66324;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+#instructions{
+    background-color: #EBD0B9;
+    color: green;
+    padding: 10px 15px 50px 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+#random{
+    background-color: #49E692;
+    color:#8A358F;
+    margin-bottom: 10px;
+    height: 90px;
+    margin-left: 0;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+#winslosses{
+    background-color: cyan;
+    color: green;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 90px;
+    padding: 5px;
+}
+ 
+#scoreTitle{
+    background-color: #12B5A2;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+}
+
+#score{
+    background-color: #12B5A2;
+    color: white;
+    height: 90px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+#red,
+#blue,
+#yellow,
+#green{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
