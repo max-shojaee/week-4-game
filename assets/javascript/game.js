@@ -37,12 +37,10 @@ $(document).ready(function(){
 function processCrystal(){
     if (sum === random) {
         wins++;
-        $("#wins").append(wins);
         reset();
     }
     else if(sum > random){
         losses++;
-        $("#losses").append(losses);
         reset();
     }
     refresh();
